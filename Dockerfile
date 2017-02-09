@@ -1,5 +1,4 @@
-FROM nginx:1.11
-# makes use of debian:jessie (https://hub.docker.com/_/nginx/)
+FROM nginx:1.11-alpine
 
 COPY default.template /etc/nginx/conf.d/default.template
 ADD global /etc/nginx/global/
