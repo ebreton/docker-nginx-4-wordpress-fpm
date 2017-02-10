@@ -1,4 +1,4 @@
-FROM nginx:1.11-alpine
+FROM nginx:1.11
 
 COPY default.template /etc/nginx/conf.d/default.template
 ADD global /etc/nginx/global/
